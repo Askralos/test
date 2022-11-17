@@ -1,0 +1,40 @@
+.back{
+  position: absolute;
+  width: 25%;
+  height: 100%;
+  background-color: #E63946;
+  margin-left: 75%;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+}
+
+.logo{
+  width: 630px;
+  font-size: 40px;
+  font-weight: bold;
+  color: red;
+  margin-left: 20px;
+}
+
+.nav-bar{
+  display: flex;
+  width: 350px;
+  color: darkblue;
+  font-weight:600;
+  font-size: 20px;
+  justify-content: space-between;
+}
+
+.identifiant{
+  display: flex;
+  width: 100px;
+  margin-left:36%;
+  z-index: 1;
+}
+
+.fa-user{
+  height: 10px;
+}
